@@ -371,8 +371,8 @@
 				}
 
 				var places = [
-					['Normandy Church', 39.6457079, -84.1698857, 1],
-					['Dayton Racquet Club', 39.7608574, -84.1934252, 1]
+					['Normandy Church', 39.6457079, -84.1698857, 1, 'https://goo.gl/maps/bE4eBWFjTTF2'],
+					['Dayton Racquet Club', 39.7608574, -84.1934252, 1, 'https://goo.gl/maps/FjxDhvQpAis']
 				];
 
 				function setMarkers(map, locations) {
@@ -386,8 +386,6 @@
 						// The anchor for this image is the base of the pin at 20,42.
 						anchor: new google.maps.Point(20, 58)
 					};
-
-					var infowindow = new google.maps.InfoWindow();
 
 					var marker, i;
 					var markers = new Array();
@@ -403,13 +401,10 @@
 							zIndex: place[3],
 							animation: google.maps.Animation.DROP
 						});
-
 						markers.push(marker);
-
 						google.maps.event.addListener(marker, 'click', (function(marker, i) {
 							return function() {
-								infowindow.setContent(locations[i][0]);
-								infowindow.open(map, marker);
+								window.open(locations[i][4],'_blank');
 							}
 						})(marker, i));
 					}
