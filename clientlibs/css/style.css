@@ -186,14 +186,14 @@ section {
 
 .heading span {
 	border: 0;
-	border-top: 1px solid #DAA520;
+	border-top: 1px solid #ffc31a;
 	display: inline-block;
 	margin: 5px 10px;
 	width: 40px;
 }
 
 .heading i {
-	color: #DAA520;
+	color: #ffc31a;
 }
 
 /* MAIN BANNER
