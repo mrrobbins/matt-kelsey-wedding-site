@@ -186,14 +186,14 @@ section {
 
 .heading span {
 	border: 0;
-	border-top: 1px solid #DAA520;
+	border-top: 1px solid #ffc31a;
 	display: inline-block;
 	margin: 5px 10px;
 	width: 40px;
 }
 
 .heading i {
-	color: #DAA520;
+	color: #ffc31a;
 }
 
 /* MAIN BANNER
@@ -209,7 +209,7 @@ section {
 }
 
 .hover-effect span {
-	background: #d6516d;
+	background: #b12a46;
 	color: #fff;
 	display: block;
 	height: 0;
@@ -272,8 +272,8 @@ section {
 }
 
 .social-icons a:hover {
-	border: 1px solid #d6516d;
-	color: #d6516d;
+	border: 1px solid #ffc31a;
+	color: #ffc31a;
 }
 
 /* PEOPLE & ACCOMMODATION
@@ -435,7 +435,7 @@ section {
 =========================================================================================*/
 
 #rsvp {
-	background: #d6516d;
+	background: #ffc31a;
 	border-radius: 8px;
 	color: #222;
 	margin-right: -470px;
