@@ -286,12 +286,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: ##b12a46;
+  color: #ffc31a;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: ##b12a46;
+  color: #ffc31a;
   text-decoration: underline;
 }
 a:focus {
@@ -2079,8 +2079,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #ffc31a;
-  border-color: #d13c5c;
+  background-color: #00264d;
+  border-color: #00264d;
 }
 .btn-primary:hover,
 .btn-primary:focus,
